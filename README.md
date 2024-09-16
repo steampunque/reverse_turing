@@ -27,7 +27,7 @@ Tested models:                acc
    
    openchat 3.6 8B Q8_0  0/4  0.00
    
-   mistral 7B v0.3       hung up on first prompt
+   mistral 7B v0.3       0/4  0.00
    
    phi 3 medium 14B      hung up on first prompt
    
