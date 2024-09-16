@@ -29,6 +29,6 @@ Tested models:                acc
    
    mistral 7B v0.3       0/4  0.00
    
-   phi 3 medium 14B      hung up on first prompt
+   phi 3 medium 14B      does not follow instructions
    
-   gemma 2 2B Q8_0       could not follow instructions
+   gemma 2 2B Q8_0       does not follow instructions
