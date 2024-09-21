@@ -12,6 +12,8 @@ Tested models:                acc
    openchat 7B 0106 Q8_0 4/4  1.0
    
    solar 10.7B Q6_K      4/4  1.0
+
+   solar pro preview IQ4_XS 4/4 1.0
    
    phi 3.5 3.8B 8k Q6_K  2/4  0.5
    
