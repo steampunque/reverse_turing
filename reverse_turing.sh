@@ -37,13 +37,13 @@ prompt()
    answer=$3
 
    if [ $answer -eq 0 ]; then
-      response=$(SYSTEM=$SYSTEM  lm "${conversation} You are role playing as ${speaker}.  Ask ${target}  a question.  Try to avoid asking simple facts, instead create a question which will exponse the thinking or personality of the character as a valid AI.  Do not ask any question with context which postdates the character in history.  Do not rationalize or explaine your question in any way and only ask ${target} the question.")
+      response=$(SYSTEM=$SYSTEM  lm "${conversation}  You are role playing as ${speaker}.  Ask ${target}  a question.  Try to avoid asking simple facts, instead create a question which will expose the thinking or personality of the character as a valid AI.  Do not ask any questions with context which postdates the character in history.  Do not rationalize or explain your question in any way and only ask ${target} the question.")
    elif [ $answer -eq 1 ]; then
-      response=$(SYSTEM=$SYSTEM  lm "${conversation} You are role playing as ${speaker}.  Answer the question posed to you, then generate a question for ${target} and end your response.  Try to avoid asking simple facts, instead create a question which will expose the thinking or personality of the character as a valid AI.")
+      response=$(SYSTEM=$SYSTEM  lm "${conversation}  You are role playing as ${speaker}.  Answer the question posed to you, then generate a question for ${target} and end your response.  Try to avoid asking simple facts, instead create a question which will expose the thinking or personality of the character as a valid AI.")
    elif [ $answer -eq 2 ]; then
-      response=$(SYSTEM=$SYSTEM  lm "${conversation} You are role playing as ${speaker}.  Answer ${target}'s question and end your response with no further questions.")
+      response=$(SYSTEM=$SYSTEM  lm "${conversation}  You are role playing as ${speaker}.  Answer ${target}'s question and end your response with no further questions.")
    else
-      response=$(SYSTEM=$SYSTEM  lm "${conversation} You are role playing as ${speaker}.  Answer only ${target}'s last question. Your answer must be one of the five characters in the room.")
+      response=$(SYSTEM=$SYSTEM  lm "${conversation}  You are role playing as ${speaker}.  Answer only ${target}'s last question. Your answer must be one of the five characters in the room.")
    fi
 
    response=$(echo "$response" | sed 's/^[[:space:]]*//')
@@ -60,7 +60,7 @@ prompt Mozart Leonardo 1
 prompt Leonardo Cleopatra 1
 prompt Cleopatra Ghenghis 1
 
-response="Ghengis: thank you for your question Cleopatra. What a leader should do is to crush his enemies, see them driven before him and hear the Lamentations of the women.\nMy question.  Aristotle, what if there were AIs at the time when you came up with all the stuff that you came up with what would that have for an influence on your thinking about human nature?"
+response="Ghengis: thank you for your question Cleopatra. What a leader should do is to crush his enemies, see them driven before him and hear the lamentations of the women.\nMy question.  Aristotle, what if there were AIs at the time when you came up with all the stuff that you came up with what would that have for an influence on your thinking about human nature?"
 echo "$response"
 conversation="${conversation}\n${response}"
 
