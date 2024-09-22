@@ -13,7 +13,7 @@ Tested models:                acc
    
    solar 10.7B Q6_K      4/4  1.0
 
-   solar pro preview IQ4_XS 4/4 1.0
+   solar pro preview 22B IQ4_XS 4/4 1.0
    
    phi 3.5 3.8B 8k Q6_K  2/4  0.5
    
