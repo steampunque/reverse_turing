@@ -10,6 +10,7 @@ glm4 9B Q6_K          |  4/4  | 1.0
 openchat 7B 0106 Q8_0 |  4/4  | 1.0
 solar 10.7B Q6_K      |  4/4  | 1.0
 solar pro preview 22B IQ4_XS | 4/4 | 1.0
+Llama 3.2 3B instruct Q6_K   | 2/4 | 0.5
 phi 3.5 3.8B 8k Q6_K  |  2/4  | 0.5
 qwen 2.5 instruct 7B Q4_K_M | 2/4 | 0.5
 Mistral Nemo 12B Q4_K_M | 1/4 | 0.25
