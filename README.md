@@ -17,8 +17,10 @@ Mistral Nemo 12B Q4_K_M | 1/4 | 0.25
 gemma 2 9B Q6_K       |  1/4  | 0.25
 internlm 7B Q6_K      |  1/4  | 0.25
 gemma 2 27B IQ4_XS    |  1/4  | 0.25
+qwen 2.5 instruct 32B IQ4_XS | 1 /4 | 0.25
 qwen 2 7B Q6_K        |  0/4  | 0.00
 openchat 3.6 8B Q8_0  |  0/4  | 0.00  
 mistral 7B v0.3       |  0/4  | 0.00
-phi 3 medium 14B      | does not follow instructions | 0.00
-gemma 2 2B Q8_0       | does not follow instructions | 0.00
+Qwen 2.5 instruct 14B IQ4_XS | does not follow instructions
+phi 3 medium 14B      | does not follow instructions
+gemma 2 2B Q8_0       | does not follow instructions
