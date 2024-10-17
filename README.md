@@ -16,6 +16,7 @@ glm4 9B IQ4_XS        | 3/4 | 0.75
 mistral 7B v0.3 Q6_K  |  3/4  | 0.75
 internlm 7B Q6_K    |  2/4  | 0.5
 Llama 3.2 3B instruct Q6_K | 2/4 | 0.5
+Ministral 8B Instruct 2410 Q6_K | 2/4 | 0.5
 openchat 7B 0106 Q8_0 | 2/4 | 0.5
 phi 3 medium 4k 14B IQ4_XS  | 2/4 | 0.5
 gemma 2 9B Q6_K     | 1/4 | 0.25
