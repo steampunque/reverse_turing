@@ -18,6 +18,7 @@ mistral 7B instruct v0.3 Q6_K  |  3/4  | 0.75
 internlm 7B chat Q6_K    |  2/4  | 0.5
 Llama 3.2 3B instruct Q6_K | 2/4 | 0.5
 Ministral 8B Instruct 2410 Q6_K | 2/4 | 0.5
+Mistral Small 22B Instruct 2409 Q6_K | 2/4 | 0.5
 openchat 7B 0106 Q8_0 | 2/4 | 0.5
 phi 3 medium 4k instruct 14B IQ4_XS  | 2/4 | 0.5
 gemma 2 9B it Q6_K     | 1/4 | 0.25
