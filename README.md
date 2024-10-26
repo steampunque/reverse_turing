@@ -5,6 +5,7 @@ Reference: https://www.youtube.com/watch?v=MxTWLm9vT_o
 
 Tested models:        |  score  | acc
 ----------------------|----------|------
+granite 3.0 2B instruct Q6_K   | 4/4      | 1.0
 granite 3.0 8B instruct Q6_K   | 4/4      | 1.0
 Llama 3.1 8B instruct Q6_K   | 4/4 | 1.0
 phi 3.5 3.8B 8k instruct Q6_K | 4/4 | 1.0
