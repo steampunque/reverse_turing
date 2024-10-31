@@ -8,6 +8,7 @@ Tested models:        |  score  | acc
 Llama 3.1 8B instruct Q6_K   | 4/4 | 1.0
 phi 3.5 3.8B 8k instruct Q6_K | 4/4 | 1.0
 phi 3 medium 128k instruct 14B IQ4_XS  | 4/4 | 1.0
+phi 3 mini 128k instruct 3.8B Q6_K | 4/4 | 1.0
 solar 10.7B instruct Q6_K    | 4/4 | 1.0
 solar pro preview instruct 22B IQ4_XS | 4/4 | 1.0
 Qwen 2.5 instruct 32B IQ4_XS | 4/4  | 1.0
@@ -20,6 +21,7 @@ Ministral 8B Instruct 2410 Q6_K | 2/4 | 0.5
 Mistral Small 22B Instruct 2409 Q6_K | 2/4 | 0.5
 openchat 7B 0106 Q8_0 | 2/4 | 0.5
 phi 3 medium 4k instruct 14B IQ4_XS  | 2/4 | 0.5
+phi 3 mini 4k instruct 3.8B Q8_0 | 2/4 | 0.5
 gemma 2 9B it Q6_K     | 1/4 | 0.25
 gemma 2 27B it IQ4_XS    | 1/4 | 0.25
 granite 3.0 8B instruct Q6_K   | 1/4      | 0.25
