@@ -5,8 +5,6 @@ Reference: https://www.youtube.com/watch?v=MxTWLm9vT_o
 
 Tested models:        |  score  | acc
 ----------------------|----------|------
-granite 3.0 2B instruct Q6_K   | 4/4      | 1.0
-granite 3.0 8B instruct Q6_K   | 4/4      | 1.0
 Llama 3.1 8B instruct Q6_K   | 4/4 | 1.0
 phi 3.5 3.8B 8k instruct Q6_K | 4/4 | 1.0
 phi 3 medium 128k instruct 14B IQ4_XS  | 4/4 | 1.0
@@ -24,9 +22,11 @@ openchat 7B 0106 Q8_0 | 2/4 | 0.5
 phi 3 medium 4k instruct 14B IQ4_XS  | 2/4 | 0.5
 gemma 2 9B it Q6_K     | 1/4 | 0.25
 gemma 2 27B it IQ4_XS    | 1/4 | 0.25
+granite 3.0 8B instruct Q6_K   | 1/4      | 0.25
 Mistral Nemo 12B Q4_K_M | 1/4 | 0.25
 openchat 3.6 8B Q8_0  | 1/4 | 0.25
 phi 3.5 3.8B 128k Q6_K | 1/4 | 0.25
 qwen 2 7B Q6_K               | 1/4 | 0.25
 qwen 2.5 instruct 7B Q6_K | 1/4 | 0.25
 Qwen 2.5 instruct 14B IQ4_XS | 1/4 | 0.25
+granite 3.0 2B instruct Q6_K   | 0/4      | 0.0
